@@ -97,7 +97,7 @@
 				|| ($_FILES["file"]["type"] == "image/x-png")
 				|| ($_FILES["file"]["type"] == "image/txt")
 				|| ($_FILES["file"]["type"] == "image/png"))
-				&& ($_FILES["file"]["size"] <= 500000)
+				&& ($_FILES["file"]["size"] <= 10000000)
 				&& in_array($extension, $allowedExts)) 
 				/* The in_array() searches for a specific value in an array.
 				Here, searches for $extension value in $allowedExts array */
